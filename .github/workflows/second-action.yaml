@@ -1,3 +1,4 @@
+name: My Second GitHub Actions
 
 on: [push]
 
@@ -24,5 +25,4 @@ jobs:
     - name: Run tests
       run: |
         cd src
-        python -m pytest subtract.py
-
+        python -m pytest addition.py

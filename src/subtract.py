@@ -1,6 +1,6 @@
 
 # This is a test commit
-#commit done by 
+#commit done 
 def add(a, b):
     return a - b
 

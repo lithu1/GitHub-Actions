@@ -24,5 +24,5 @@ jobs:
 
     - name: Run tests
       run: |
-        cd src3
-        python -m pytest src3.py
+        cd src
+        python -m pytest subtraction.py

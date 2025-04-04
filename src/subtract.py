@@ -1,9 +1,10 @@
-def subtract(a, b):
+# app.py
+# This is a test commit
+#commit done by me 
+def add(a, b):
     return a - b
 
-# Example usage
-subtract(9,5)
-subtract(9,4)
-
-result = subtract(num1, num2)
-print(f"The result of {num1} - {num2} is {result}")
+def test_add():
+    assert add(4, 2) == 2
+    assert add(1, -1) == 2
+# rrrr
